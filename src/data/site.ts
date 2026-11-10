@@ -209,6 +209,10 @@ export const homeFaqs = [
     q: "How much does delivery cost?",
     a: "Prices are set by zone and service, starting at $7.50 per stop for next-day delivery in the core. There is no monthly fee.",
   },
+  {
+    q: "When is the cutoff for same-day delivery?",
+    a: "For same-day delivery in the Core zone, send your orders by 2:00 pm. Other zones have next-day or scheduled service with their own cutoff.",
+  },
 ];
 
 export const merchantDay = [
