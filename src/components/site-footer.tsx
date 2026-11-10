@@ -40,6 +40,11 @@ export const SiteFooter = component$(() => {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link href="/#service-areas" class="hover:text-moss">
+                Service areas
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
