@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import { BrandMark } from "./brand-mark";
-import { nav, site } from "~/data/site";
+import { deliveryHours, nav, site } from "~/data/site";
 
 export const SiteFooter = component$(() => {
   const year = new Date().getFullYear();
@@ -64,7 +64,9 @@ export const SiteFooter = component$(() => {
         <p>
           {year} {site.name}. Sample company for product demos.
         </p>
-        <p>Deliveries run seven days a week, weather permitting.</p>
+        <p>
+          {deliveryHours.title}: {deliveryHours.body}
+        </p>
       </div>
     </footer>
   );
