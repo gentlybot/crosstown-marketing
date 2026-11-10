@@ -64,7 +64,10 @@ export const SiteFooter = component$(() => {
         <p>
           {year} {site.name}. Sample company for product demos.
         </p>
-        <p>Deliveries run seven days a week, weather permitting.</p>
+        <p>
+          Deliveries run seven days a week, weather permitting.
+          Holiday schedules are posted a week ahead.
+        </p>
       </div>
     </footer>
   );
