@@ -5,6 +5,7 @@ import { CtaBand } from "~/components/cta-band";
 import { Faq } from "~/components/faq";
 import {
   courierBand,
+  deliveryHours,
   hero,
   homeFaqs,
   included,
@@ -34,6 +35,11 @@ export default component$(() => {
         <div class="mx-auto w-full max-w-md lg:max-w-none">
           <RouteSheet />
         </div>
+      </section>
+
+      <section class="wrap py-8">
+        <h2 class="h-sub">{deliveryHours.title}</h2>
+        <p class="mt-2 text-smoke">{deliveryHours.body}</p>
       </section>
 
       <section class="border-y border-mist bg-sheet">
