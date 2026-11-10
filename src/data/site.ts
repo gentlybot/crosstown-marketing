@@ -205,6 +205,10 @@ export const homeFaqs = [
     q: "Where do you deliver?",
     a: "We deliver across Toronto and nearby suburbs, grouped into four zones: Core, East, West and North, and Outer.",
   },
+  {
+    q: "How much does delivery cost?",
+    a: "Prices are set by zone and service, starting at $7.50 per stop for next-day delivery in the core. There is no monthly fee.",
+  },
 ];
 
 export const merchantDay = [
