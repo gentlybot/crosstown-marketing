@@ -201,6 +201,10 @@ export const homeFaqs = [
     q: "How do I get started?",
     a: "Request an account, and we will set up your pickup address, cutoff, and zones within a business day. Your first batch can go out the day after.",
   },
+  {
+    q: "Where do you deliver?",
+    a: "We deliver across Toronto and nearby suburbs, grouped into four zones: Core, East, West and North, and Outer.",
+  },
 ];
 
 export const merchantDay = [
