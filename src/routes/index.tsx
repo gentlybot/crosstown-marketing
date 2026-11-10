@@ -40,6 +40,10 @@ export default component$(() => {
       <section class="wrap py-8">
         <h2 class="h-sub">{deliveryHours.title}</h2>
         <p class="mt-2 text-smoke">{deliveryHours.body}</p>
+        <div class="mt-6 border-t border-mist pt-5">
+          <h3 class="h-sub">Holiday schedule</h3>
+          <p class="mt-2 text-smoke">Holiday schedules are posted a week ahead.</p>
+        </div>
       </section>
 
       <section class="border-y border-mist bg-sheet">
