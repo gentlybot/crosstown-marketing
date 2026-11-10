@@ -42,7 +42,7 @@ export default component$(() => {
         <p class="mt-2 text-smoke">{deliveryHours.body}</p>
         <div class="mt-6 border-t border-mist pt-5">
           <h3 class="h-sub">Holiday schedule</h3>
-          <p class="mt-2 text-smoke">Holiday schedules are posted a week ahead.</p>
+          <p class="mt-2 text-smoke">Holiday schedules are posted one week ahead.</p>
         </div>
       </section>
 
