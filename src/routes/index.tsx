@@ -96,14 +96,13 @@ export default component$(() => {
         </div>
       </section>
 
-      <section class="border-y border-mist bg-sheet">
+      <section id="service-areas" class="scroll-mt-20 border-y border-mist bg-sheet">
         <div class="wrap py-16 sm:py-20">
           <div class="grid gap-10 lg:grid-cols-[1fr_2fr]">
             <div>
-              <h2 class="h-section">Where we deliver</h2>
+              <h2 class="h-section">Service areas</h2>
               <p class="mt-4 text-smoke">
-                All of {site.city} and the near suburbs, grouped into four
-                zones. Your service area page shows the exact postal prefixes.
+                All of {site.city} and nearby suburbs, grouped into four zones.
               </p>
             </div>
             <div class="overflow-x-auto">
