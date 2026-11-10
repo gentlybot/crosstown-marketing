@@ -15,6 +15,7 @@ no database, no third-party services.
 - `/couriers/` how driving works, sample route pay, requirements
 - `/pricing/` per-stop prices by zone, volume rates, extras
 - `/contact/` request form (server action, logs to the console)
+- Home page includes a Service areas section, linked from the footer
 
 ## Develop
 
