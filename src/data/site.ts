@@ -21,6 +21,11 @@ export const nav = [
   { label: "Contact", href: "/contact/" },
 ];
 
+export const deliveryHours = {
+  title: "Delivery hours",
+  body: "Seven days a week, weather permitting.",
+};
+
 export const hero = {
   headline: "Local delivery your customers can follow to the door.",
   body: "Crosstown runs same-day and next-day delivery for shops in Toronto. Send us your orders by your cutoff, we build the routes, local couriers deliver, and every customer gets a tracking page with a photo at the door.",
