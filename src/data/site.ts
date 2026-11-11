@@ -3,6 +3,8 @@
  * a zone, a price, or a FAQ changes in one place.
  */
 
+export const winterHours = "Winter hours: Mon-Sat 8am-6pm";
+
 export const site = {
   name: "Crosstown",
   tagline: "Local delivery your customers can follow to the door.",

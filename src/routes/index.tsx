@@ -11,6 +11,7 @@ import {
   pricingTeaser,
   site,
   steps,
+  winterHours,
   zones,
 } from "~/data/site";
 
@@ -30,6 +31,7 @@ export default component$(() => {
             </Link>
           </div>
           <p class="mt-6 max-w-[34em] text-sm text-smoke">{hero.audience}</p>
+          <p class="mt-3 text-sm text-smoke">{winterHours}</p>
         </div>
         <div class="mx-auto w-full max-w-md lg:max-w-none">
           <RouteSheet />
