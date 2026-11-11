@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import { BrandMark } from "./brand-mark";
-import { nav, site } from "~/data/site";
+import { nav, site, winterHours } from "~/data/site";
 
 export const SiteFooter = component$(() => {
   const year = new Date().getFullYear();
@@ -21,6 +21,7 @@ export const SiteFooter = component$(() => {
             Routes built for your cutoff, couriers who live nearby, and proof at
             every door.
           </p>
+          <p class="mt-3 text-sm text-smoke">{winterHours}</p>
           <div class="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
             <Link href="/merchant/login/" class="hover:text-moss">
               Merchant login
